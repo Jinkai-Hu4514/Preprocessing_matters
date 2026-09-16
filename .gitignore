@@ -13,3 +13,38 @@ processed_source_dtype.npy
 # Python bytecode caches are local build artifacts.
 **/__pycache__/
 *.py[cod]
+
+# Node.js dependencies and package-manager caches.
+**/node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python test, type-checker, and linter caches.
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.coverage
+**/.coverage.*
+**/htmlcov/
+
+# Local virtual environments and machine-specific secrets.
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Operating-system and editor leftovers.
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
