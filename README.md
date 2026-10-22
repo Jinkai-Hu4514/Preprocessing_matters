@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33820925/README.md)
 # Preprocessing Matters
 ### A Pluggable Benchmark for Heterogeneous WiFi CSI Sensing
 
