@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "errors": [],
+  "deleted_files": 4773,
+  "deleted_bytes": 10231692607,
+  "tracked_deletions": 4689,
+  "retained_files": 644,
+  "retained_hashes_checked": 643,
+  "intentional_modified_file": ".gitignore (original archived)",
+  "python_sources_syntax_checked": 186,
+  "retained_csv_json_files": 166,
+  "submission_files_hash_checked": 12,
+  "archive_hash_policy": "All archive files SHA-256 verified after copying and again immediately before each deletion; final size/existence verification passed if no errors",
+  "raw_data_policy": "Protected directory trees excluded from cleanup; contents not bulk-hashed",
+  "training_import_test": "Not run: available Python environments lack PyTorch; no training/source modifications made",
+  "git_history": "No commit, staging, push, reset, or history rewrite performed"
+}

@@ -48,3 +48,19 @@ Desktop.ini
 *.swp
 *.swo
 *~
+
+# Per-run artifacts archived during the 2026-10-22 repository cleanup.
+# Keep summaries, training_history.csv, settings, diagnostics, and figure sources.
+best_checkpoint.pth
+best_checkpoint_*.pth
+loss_curve.png
+train_process.txt
+preset_process.txt
+error.txt
+
+# Personal editor settings and known paper-writing QA/preview outputs.
+**/.vscode/
+/docx_qa_final/
+/paper_figures/csi_motivation/preview_*.png
+/paper_figures/csi_motivation/open_editor.html
+/paper_figures/csi_motivation/drawio_editor_url.txt

@@ -1,0 +1,74 @@
+[
+  {
+    "check": "stage1",
+    "script": "paper_figures/generate_stage1_heatmap_marginals.py",
+    "status": "passed",
+    "outputs": [
+      "C:\\Users\\21669\\.codex\\visualizations\\2026\\10\\22\\01a1636f-c5a2-7ef2-b45b-5b9911a827e0\\cleanup_smoke_figures\\stage1\\fig02_stage1_model_preset_heatmap_marginals.pdf",
+      "C:\\Users\\21669\\.codex\\visualizations\\2026\\10\\22\\01a1636f-c5a2-7ef2-b45b-5b9911a827e0\\cleanup_smoke_figures\\stage1\\fig02_stage1_model_preset_heatmap_marginals.png",
+      "C:\\Users\\21669\\.codex\\visualizations\\2026\\10\\22\\01a1636f-c5a2-7ef2-b45b-5b9911a827e0\\cleanup_smoke_figures\\stage1\\fig02_stage1_model_preset_heatmap_marginals.svg"
+    ]
+  },
+  {
+    "check": "stage2",
+    "script": "paper_figures/generate_stage2_pipeline_heatmaps.py",
+    "status": "passed",
+    "outputs": [
+      "C:\\Users\\21669\\.codex\\visualizations\\2026\\10\\22\\01a1636f-c5a2-7ef2-b45b-5b9911a827e0\\cleanup_smoke_figures\\stage2\\fig_stage2_pipeline_test_accuracy_heatmaps.pdf",
+      "C:\\Users\\21669\\.codex\\visualizations\\2026\\10\\22\\01a1636f-c5a2-7ef2-b45b-5b9911a827e0\\cleanup_smoke_figures\\stage2\\fig_stage2_pipeline_test_accuracy_heatmaps_preview.png"
+    ]
+  },
+  {
+    "check": "hampel_waveforms",
+    "script": "ablation/plot_hampel_combined_abc.py",
+    "status": "passed",
+    "outputs": [
+      "C:\\Users\\21669\\.codex\\visualizations\\2026\\10\\22\\01a1636f-c5a2-7ef2-b45b-5b9911a827e0\\cleanup_smoke_figures\\hampel_waveforms\\hampel_waveforms.pdf"
+    ]
+  },
+  {
+    "check": "hampel_confusion",
+    "script": "ablation/plot_elderal_hampel_ablation_six_panel.py",
+    "status": "passed",
+    "outputs": [
+      "C:\\Users\\21669\\.codex\\visualizations\\2026\\10\\22\\01a1636f-c5a2-7ef2-b45b-5b9911a827e0\\cleanup_smoke_figures\\hampel_confusion\\hampel_confusion.pdf"
+    ]
+  },
+  {
+    "check": "hampel_timing",
+    "script": "ablation/plot_elderal_sampling_window_span_two_panel.py",
+    "status": "passed",
+    "outputs": [
+      "C:\\Users\\21669\\.codex\\visualizations\\2026\\10\\22\\01a1636f-c5a2-7ef2-b45b-5b9911a827e0\\cleanup_smoke_figures\\hampel_timing\\hampel_timing.pdf"
+    ]
+  },
+  {
+    "check": "bandpass",
+    "script": "ablation/plot_bandpass_accuracy_and_bypass.py",
+    "status": "passed",
+    "outputs": [
+      "C:\\Users\\21669\\.codex\\visualizations\\2026\\10\\22\\01a1636f-c5a2-7ef2-b45b-5b9911a827e0\\cleanup_smoke_figures\\bandpass\\bandpass.pdf"
+    ]
+  },
+  {
+    "check": "phase_accuracy",
+    "script": "ablation/robust_paper_figures/plot_fig_x_root_cause.py",
+    "status": "passed",
+    "outputs": [
+      "C:\\Users\\21669\\.codex\\visualizations\\2026\\10\\22\\01a1636f-c5a2-7ef2-b45b-5b9911a827e0\\cleanup_smoke_figures\\phase_accuracy\\fig_x_robust_root_cause.pdf",
+      "C:\\Users\\21669\\.codex\\visualizations\\2026\\10\\22\\01a1636f-c5a2-7ef2-b45b-5b9911a827e0\\cleanup_smoke_figures\\phase_accuracy\\fig_x_robust_root_cause.png",
+      "C:\\Users\\21669\\.codex\\visualizations\\2026\\10\\22\\01a1636f-c5a2-7ef2-b45b-5b9911a827e0\\cleanup_smoke_figures\\phase_accuracy\\fig_x_robust_root_cause.svg"
+    ]
+  },
+  {
+    "check": "phase_structure",
+    "script": "ablation/robust_paper_figures/plot_fig_y_signal_structure.py",
+    "status": "passed",
+    "outputs": [
+      "C:\\Users\\21669\\.codex\\visualizations\\2026\\10\\22\\01a1636f-c5a2-7ef2-b45b-5b9911a827e0\\cleanup_smoke_figures\\phase_structure\\fig_y_robust_signal_structure.pdf",
+      "C:\\Users\\21669\\.codex\\visualizations\\2026\\10\\22\\01a1636f-c5a2-7ef2-b45b-5b9911a827e0\\cleanup_smoke_figures\\phase_structure\\fig_y_robust_signal_structure.png",
+      "C:\\Users\\21669\\.codex\\visualizations\\2026\\10\\22\\01a1636f-c5a2-7ef2-b45b-5b9911a827e0\\cleanup_smoke_figures\\phase_structure\\fig_y_robust_signal_structure.svg",
+      "C:\\Users\\21669\\.codex\\visualizations\\2026\\10\\22\\01a1636f-c5a2-7ef2-b45b-5b9911a827e0\\cleanup_smoke_figures\\phase_structure\\fig_y_robust_signal_structure_statistics.csv"
+    ]
+  }
+]
