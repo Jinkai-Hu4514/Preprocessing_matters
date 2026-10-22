@@ -1,9 +1,0 @@
-﻿path,action,reason
-.agents,keep_unscanned,"Protected raw data, runtime, tool metadata, audit output, or link; never a deletion target"
-.cache,keep_unscanned,"Protected raw data, runtime, tool metadata, audit output, or link; never a deletion target"
-.codex_tmp,keep_unscanned,"Protected raw data, runtime, tool metadata, audit output, or link; never a deletion target"
-.git,keep_unscanned,"Protected raw data, runtime, tool metadata, audit output, or link; never a deletion target"
-cleanup_audit,keep_unscanned,"Protected raw data, runtime, tool metadata, audit output, or link; never a deletion target"
-sdp_dataset,keep_unscanned,"Protected raw data, runtime, tool metadata, audit output, or link; never a deletion target"
-tmp,keep_unscanned,"Protected raw data, runtime, tool metadata, audit output, or link; never a deletion target"
-outputs/table_refinement_20260907/node_modules,keep_unscanned,"Protected raw data, runtime, tool metadata, audit output, or link; never a deletion target"
