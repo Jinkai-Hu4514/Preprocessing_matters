@@ -197,9 +197,9 @@ Benchmark scripts primarily save summaries and run-specific outputs in their res
 - [`ablation/`](ablation/) — signal-level and targeted ablation analyses for Hampel, band-pass filtering, phase calibration, and related effects.
 - [`paper_figures/figure_manifest.json`](paper_figures/figure_manifest.json) — provenance information for supported figure-generation workflows.
 
-![Stage I model–preprocessing comparison](paper_figures/output/fig02_stage1_model_preset_heatmap_marginals.png)
+![Stage II test accuracy across fine-grained preprocessing configurations on four WiFi CSI datasets](paper_figures/output/fig_stage2_pipeline_test_accuracy_heatmaps.png)
 
-*Example Stage I visualization. The actual successful/failed/skipped status of each experiment should be read from the corresponding summary, not inferred solely from a plot.*
+*Stage II: Test accuracy across fine-grained preprocessing combinations for Gait and Widar (320 configurations each), XRF55 and ElderAL (80 configurations each). Rows vary denoising, outlier handling, and (for complex CSI) phase calibration; columns vary normalization and interpolation. This README preview is reconstructed from the repository's result summaries. 
 
 ## Repository structure
 
